@@ -27,8 +27,8 @@ class RetrofitInitializer {
         .baseUrl(AulaRetrofitApp.URL_API)
         .addConverterFactory(GsonConverterFactory.create())
         .build()
-
-    //fun serviceTime(): ServiceTime {
+// funçao do exemplo
+    // fun serviceTime(): ServiceTime {
  //       return retrofit.create(ServiceTime::class.java)
    // }
 
